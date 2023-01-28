@@ -282,10 +282,10 @@ hl.plugins.lsp = {
     DiagnosticVirtualTextHint = { bg = cfg.diagnostics.background and util.darken(diagnostics_hint_color, 0.1, c.bg0) or c.none,
                                   fg = diagnostics_hint_color },
 
-    DiagnosticUnderlineError = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.red},
-    DiagnosticUnderlineHint = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.purple},
-    DiagnosticUnderlineInfo = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.blue},
-    DiagnosticUnderlineWarn = {fmt = cfg.diagnostics.undercurl and "undercurl" or "underline", sp = c.yellow},
+    DiagnosticUnderlineError = {sp = c.red},
+    DiagnosticUnderlineHint = {sp = c.purple},
+    DiagnosticUnderlineInfo = {sp = c.blue},
+    DiagnosticUnderlineWarn = {sp = c.yellow},
 
     LspReferenceText = { bg = c.bg2 },
     LspReferenceWrite = { bg = c.bg2 },
